@@ -1,14 +1,23 @@
-nav > ul {
+nav>ul {
     display: flex;
 }
+
 nav ul li {
     list-style: none;
     margin-right: 15px;
     padding: 5px;
 }
+
 nav ul li a {
     text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
 }
+
+nav ul li a:hover {
+    background-color: lightgray;
+}
+
 footer {
     margin-top: 30px;
     text-align: center;
@@ -16,9 +25,11 @@ footer {
 
 /* table style */
 table {
-    border-collapse: collapse;    
+    border-collapse: collapse;
 }
-table tr > td, th {
+
+table tr>td,
+th {
     border: 1px solid #000000;
     padding: 5px;
 }
